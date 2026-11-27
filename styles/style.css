@@ -113,3 +113,313 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.25);
   padding: 11px 22px;
   border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.section-tag {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  color: #d4a024;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+.section-text {
+  color: #475569;
+  margin-bottom: 16px;
+}
+
+.quote-italic {
+  font-style: italic;
+  color: #475569;
+  margin-bottom: 22px;
+}
+
+.founded-card {
+  background-color: #0c1226;
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 28px 20px;
+  text-align: center;
+  max-width: 360px;
+}
+
+.founded-year {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #eab308;
+}
+
+.founded-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  color: #cbd5e1;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.info-card,
+.program-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.04);
+}
+
+.pillar-num,
+.program-num {
+  display: inline-block;
+  font-weight: 700;
+  color: #d4a024;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.info-card h3,
+.program-card h4 {
+  color: #0f172a;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.info-card p,
+.program-card p {
+  color: #475569;
+  font-size: 0.94rem;
+}
+
+.college-heading {
+  margin-top: 28px;
+  color: #0f172a;
+  font-size: 1.2rem;
+}
+
+.level-card {
+  border-radius: 14px;
+  padding: 26px 22px;
+  border: 1px solid #e2e8f0;
+}
+
+.level-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: #eab308;
+  margin-bottom: 10px;
+}
+
+.level-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.level-navy {
+  background: linear-gradient(180deg, #0b1021 0%, #14203d 100%);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.level-navy p {
+  color: #e2e8f0;
+}
+
+.level-white {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+.level-white p {
+  color: #475569;
+}
+
+.level-cream {
+  background-color: #f9f3dc;
+  color: #0f172a;
+}
+
+.level-cream p {
+  color: #475569;
+}
+
+.section-dark {
+  background-color: #090e1d;
+  color: #ffffff;
+}
+
+.section-dark h2 {
+  color: #ffffff;
+}
+
+.light-text {
+  color: #cbd5e1;
+}
+
+.dark-card {
+  background-color: #101830;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 22px;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.pill-badge {
+  background-color: #1c2541;
+  color: #eab308;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.date-text {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.dark-card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 1.15rem;
+}
+
+.dark-card p {
+  color: #cbd5e1;
+  font-size: 0.94rem;
+}
+
+.photo-count {
+  margin-top: 12px;
+  color: #d4a024;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.site-footer {
+  background-color: #0c1226;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 32px 18px;
+  font-size: 0.9rem;
+}
+
+.footer-brand h3 {
+  color: #ffffff;
+  font-size: 1.35rem;
+  margin-bottom: 6px;
+}
+
+.footer-desc {
+  max-width: 520px;
+  margin: 12px auto 20px;
+  color: #cbd5e1;
+  font-size: 0.94rem;
+}
+
+.footer-contact {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #e2e8f0;
+  font-size: 0.92rem;
+  margin-bottom: 20px;
+}
+
+.footer-mission-box {
+  background-color: #101830;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 24px auto;
+  max-width: 640px;
+  text-align: left;
+}
+
+.footer-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: #94a3b8;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-mission-box blockquote {
+  border-left: 2px solid #d4a024;
+  padding-left: 14px;
+  font-style: italic;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.footer-social {
+  background-color: #101830;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 0 auto 24px;
+  max-width: 640px;
+  text-align: left;
+}
+
+.social-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.94rem;
+}
+
+.social-handle {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 18px;
+}
+
+.footer-copy {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.footer-verse {
+  font-style: italic;
+  color: #d4a024;
+  font-size: 0.85rem;
+  margin-top: 6px;
+}
+
+@media (min-width: 700px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
